@@ -1,0 +1,25 @@
+input {
+    border: none;
+    background-color: #CBEA7B;
+    color: #262626;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #21331c;
+}
+
+.header1 {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+header2 {
+    display: flex;
+}

@@ -1,0 +1,35 @@
+p#one {
+    background-color: blueviolet;
+    margin: 23px;
+    padding: 10%;
+
+}
+
+p#three {
+    background-color: rgb(43, 226, 110);
+    margin: 12px;
+    padding: 0.2%;
+}
+
+p#two {
+    background-color: rgb(43, 189, 226);
+    margin: 50px;
+}
+
+p.five {
+    background-color: rgb(226, 195, 43);
+    margin: 70px;
+    padding: 0.6%;
+}
+
+p.seven {
+    background-color: rgb(226, 43, 43);
+    margin: 130px;
+    padding: 3%;
+}
+
+p.six {
+    background-color: rgb(226, 116, 43);
+    margin: 120px;
+    padding: 1%;
+}
