@@ -1,25 +1,50 @@
-input {
-    border: none;
-    background-color: #CBEA7B;
-    color: #262626;
-    margin: 10px;
-    border-radius: 5px;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #21331c;
 }
 
-.header1 {
-    color: white;
-    text-decoration: none;
-    margin: 0 8px;
+.header2 {
+    display: flex;
+    align-items: center;
 }
 
-header2 {
+.header2 p {
+    color: white;
+    margin: 0 10px;
+}
+
+.header2 input {
+    border: none;
+    background-color: #CBEA7B;
+    color: #21331c;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.pic {
     display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.pic input {
+    border: none;
+    background-color: #CBEA7B;
+    color: #21331c;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.pic .btn {
+    background-color: white;
+    border: 1px solid #CBEA7B;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
