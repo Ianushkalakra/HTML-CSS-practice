@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +45,7 @@
 }
 
 .pic .btn {
-    background-color: white;
+    background-color: white; 
     border: 1px solid #CBEA7B;
 }
 
@@ -51,4 +57,14 @@
 
 .feature {
     display: flex;
+    gap: 30px;
+    padding: 5px 15px;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
